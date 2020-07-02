@@ -1,0 +1,32 @@
+*{
+    text-transform:capitalize;
+}
+body{
+  background-color: #ffece5;
+  font-family: verdana;
+}
+.new-user{
+
+  border: 0 solid black;
+  padding: 20px 40px;
+  max-width: 30vw;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: white;
+}
+label,input[type='text']{
+  display:block;
+margin: 10px 0;
+}
+input[type='text']{
+border: 1px solid #ddd;
+border-radius: 10px;
+}
+input[type=submit]{
+display: block;
+margin:0 auto;
+}
+.errors{
+font-size: 0.8em;
+color: #f90909;
+}

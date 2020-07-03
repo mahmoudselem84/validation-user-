@@ -1,6 +1,10 @@
 <?php
 class UserValidation{
+<<<<<<< HEAD
 //master branch
+=======
+//login branch update
+>>>>>>> login
 private $data;
 private $errors=[];
 private static $fields = ['username', 'email'];
